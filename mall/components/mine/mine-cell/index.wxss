@@ -1,0 +1,37 @@
+/* components/mine/mine-cell/index.wxss */
+.main-box {
+  height: 100rpx;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1rpx solid #ddd;
+}
+.main-container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 26rpx;
+  padding-right: 26rpx;
+
+}
+.left-container {
+  display: flex;
+  align-items: center;
+}
+.left-container .left-icon {
+  display: inline-block;
+  height: 60rpx;
+  width: 60rpx;
+  background: red;
+}
+.left-container .module-name {
+  color: #333;
+  font-size: 28rpx;
+  margin-left: 16rpx;
+}
+.right-icon {
+  height: 60rpx;
+  width: 60rpx;
+  background: red;
+}

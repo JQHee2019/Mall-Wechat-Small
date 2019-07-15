@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "usingComponents": {
+    "v-mine-header": "/components/mine/mine-header/index",
+    "v-mine-cell": "/components/mine/mine-cell/index"
+  }
+}

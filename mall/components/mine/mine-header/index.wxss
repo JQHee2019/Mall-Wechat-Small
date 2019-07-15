@@ -1,0 +1,27 @@
+/* components/mine/mine-header/index.wxss */
+/* background 不允许使用本地的图片 可以使用base64或者外网链接*/
+.main-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300rpx;
+  width: 100%;
+  background-color: #91cce9;
+}
+.main-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.user-icon {
+  height: 150rpx;
+  width: 150rpx;
+  border-radius: 75rpx;
+  background-color: #ccc;
+}
+.user-name {
+  margin-top: 10rpx;
+  font-size: 28rpx;
+  color: "#333";
+}

@@ -1,0 +1,15 @@
+<!--pages/mine/index.wxml-->
+<scroll-view scroll-y>
+  <v-mine-header userName='用户名' bind:parentEvent='userInfoTapAction'></v-mine-header>
+  <v-mine-cell name='我的物流' bind:parentEvent='cellItemClick'></v-mine-cell>
+  <v-mine-cell name='我的课程' bind:parentEvent='cellItemClick'></v-mine-cell>
+  <v-mine-cell name='我的帐户' bind:parentEvent='cellItemClick'></v-mine-cell>
+  <v-mine-cell name='我的加盟' bind:parentEvent='cellItemClick'></v-mine-cell>
+  <view style='background-color: #ddd; height: 20rpx;'></view>
+  <v-mine-cell name='商城中心' bind:parentEvent='cellItemClick'></v-mine-cell>
+  <v-mine-cell name='分销商中心' bind:parentEvent='cellItemClick'></v-mine-cell>
+  <v-mine-cell name='清除缓存' bind:parentEvent='cellItemClick'></v-mine-cell>
+  <v-mine-cell name='使用帮助' bind:parentEvent='cellItemClick'></v-mine-cell>
+  <view style='background-color: #ddd; height: 20rpx;'></view>
+  <v-mine-cell name='设置' bind:parentEvent='cellItemClick'></v-mine-cell>
+</scroll-view>

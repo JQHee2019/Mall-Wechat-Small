@@ -1,0 +1,6 @@
+/* components/message/message-cell/index.wxss */
+.main-box {
+  flex-direction: row;
+  justify-content: center;
+  padding: 10rpx;
+}

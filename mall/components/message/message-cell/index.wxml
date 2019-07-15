@@ -1,0 +1,4 @@
+<!--components/message/message-cell/index.wxml-->
+<view class='main-box'>
+  <text class='message-content'>{{content}}</text>
+</view>

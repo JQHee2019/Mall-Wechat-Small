@@ -1,0 +1,7 @@
+<!--components/mine/mine-header/index.wxml-->
+<view class='main-box'>
+  <view class='main-container' bindtap='userInfoTapAction'>
+    <image class='user-icon' src='{{iconURL}}'></image>
+    <text class='user-name'>{{userName}}</text>
+  </view>
+</view>

@@ -1,0 +1,8 @@
+<!--pages/message/index.wxml-->
+<scroll-view scroll-y>
+  <view class='list'>
+    <block wx:key="{{index}}" wx:for="{{datas}}">
+      <v-message-cell content='{{item}}'></v-message-cell>
+    </block>
+  </view>
+</scroll-view>

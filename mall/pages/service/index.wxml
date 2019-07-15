@@ -1,0 +1,3 @@
+<!--pages/service/index.wxml-->
+<!-- 必须是https域名，需要在小程序后台配置web-view业务域名 -->
+<web-view src="{{'https://www.baidu.com'}}"></web-view>

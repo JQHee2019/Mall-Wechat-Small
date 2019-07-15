@@ -1,13 +1,43 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/function/index",
+    "pages/message/index",
+    "pages/service/index",
+    "pages/mine/index"
+
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#000",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#91cce9",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/message/index",
+      "text": "消息",
+      "iconPath": "/images/tabbar_message_n.png",
+      "selectedIconPath": "/images/tabbar_message_h_b.png"
+    }, {
+      "pagePath": "pages/function/index",
+      "text": "功能",
+      "iconPath": "/images/tabbar_function_n.png",
+      "selectedIconPath": "/images/tabbar_function_h_b.png"
+    }, {
+      "pagePath": "pages/service/index",
+      "text": "客服",
+      "iconPath": "/images/tabbar_customerservice_n.png",
+      "selectedIconPath": "/images/tabbar_customerservice_h_b.png"
+    },{
+      "pagePath": "pages/mine/index",
+      "text": "我的",
+      "iconPath": "/images/tabbar_mine_n.png",
+      "selectedIconPath": "/images/tabbar_mine_h_b.png"
+    }]
   },
   "sitemapLocation": "sitemap.json"
 }
