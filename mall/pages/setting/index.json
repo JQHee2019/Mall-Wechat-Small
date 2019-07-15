@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "设置",
+  "usingComponents": {
+    "van-button": "/miniprogram_npm/vant-weapp/button/index"
+  }
+}

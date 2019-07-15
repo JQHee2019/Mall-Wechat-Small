@@ -1,4 +1,4 @@
-// pages/mine/index.js
+// pages/setting/index.js
 Page({
 
   /**
@@ -62,18 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  userInfoTapAction: function() {
-    console.log('123')
-  },
-  cellItemClick: function(e) {
-    console.log(e.detail)
-    switch (e.detail) {
-      case '设置': 
-        wx.navigateTo({
-          url: '/pages/setting/index',
-        })
-      break
-    }
   }
 })
