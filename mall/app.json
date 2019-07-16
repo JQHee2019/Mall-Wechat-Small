@@ -5,7 +5,8 @@
     "pages/service/index",
     "pages/mine/index",
     "pages/setting/index",
-    "pages/user-info/index"
+    "pages/user-info/index",
+    "pages/my-course/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

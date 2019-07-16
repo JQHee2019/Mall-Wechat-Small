@@ -1,4 +1,4 @@
-// pages/mine/index.js
+// pages/my-course/index.js
 Page({
 
   /**
@@ -62,26 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  userInfoTapAction: function() {
-    console.log('123')
-    wx.navigateTo({
-      url: '/pages/user-info/index',
-    })
-  },
-  cellItemClick: function(e) {
-    console.log(e.detail)
-    switch (e.detail) {
-      case '设置': 
-        wx.navigateTo({
-          url: '/pages/setting/index',
-        })
-      break
-      case '我的课程': 
-        wx.navigateTo({
-          url: '/pages/my-course/index',
-        })
-      break
-    }
   }
 })

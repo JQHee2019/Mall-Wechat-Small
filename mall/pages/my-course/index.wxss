@@ -1,0 +1,4 @@
+/* pages/my-course/index.wxss */
+.tab-active {
+  color: #91cce9 !important;
+}

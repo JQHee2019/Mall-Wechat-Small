@@ -1,0 +1,7 @@
+<!--pages/my-course/index.wxml-->
+<view class='main-box'>
+  <van-tabs swipeable active="{{0}}" color='#91cce9' tab-active-class='tab-active'>
+    <van-tab title="我购买的课程">内容 1</van-tab>
+    <van-tab title="我的课程收益">内容 2</van-tab>
+  </van-tabs>
+</view>
