@@ -1,1 +1,8 @@
 /* pages/setting/index.wxss */
+.logout {
+  margin: 60rpx 26rpx 0 26rpx;
+  height: 100rpx;
+  font-size: 36rpx;
+  border: 1rpx solid #ddd;
+  color: #333;
+}

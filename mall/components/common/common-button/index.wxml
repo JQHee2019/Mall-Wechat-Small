@@ -1,0 +1,7 @@
+<!--components/common-button/index.wxml-->
+<button class='btn custom-class'hover="true" hover-class="detail-hover" bindtap='tapAction'>
+  <view>{{title}}</view>
+</button>
+
+
+

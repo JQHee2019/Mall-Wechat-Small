@@ -1,3 +1,7 @@
 <!--pages/setting/index.wxml-->
+<view class='main-box'>
+  <v-commone-button custom-class='logout' bind:parentEvent='logoutClick' title='注销'></v-commone-button>
+  <van-dialog id="van-dialog" />
+</view>
 
 

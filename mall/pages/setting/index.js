@@ -1,4 +1,6 @@
 // pages/setting/index.js
+import Dialog from '../../miniprogram_npm/vant-weapp/dialog/dialog';
+
 Page({
 
   /**
@@ -62,5 +64,18 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  logoutClick: function() {
+    Dialog.confirm({
+      title: '提示',
+      message: '是否要退出登录？'
+    }).then(() => {
+      wx.navigateBack({
+        
+      })
+      // on confirm
+    }).catch(() => {
+      // on cancel
+    });
   }
 })
