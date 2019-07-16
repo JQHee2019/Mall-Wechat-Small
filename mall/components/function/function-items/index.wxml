@@ -1,0 +1,9 @@
+<!--components/function/function-items/index.wxml-->
+<view class='main-box'>
+  <block wx:for="{{items}}" wx:key>
+    <view class='item'>
+      <image src='{{item.image}}'></image>
+      <text>{{item.name}}</text>
+    </view>
+  </block>
+</view>

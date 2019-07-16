@@ -1,0 +1,22 @@
+/* components/function/function-notice/index.wxss */
+.main-container {
+  width: 100%;
+  height: 100rpx;
+  border-top: 1rpx solid #ddd;
+  display: flex;
+}
+.notice-icon {
+  width: 120rpx;
+  height: 100rpx;
+  background: red;
+}
+.swiper_container {
+  height: 100rpx;
+  flex: 1;
+}
+.swiper_item {
+  padding-left: 10rpx;
+  display: flex;
+  height: 100rpx;
+  align-items: center;
+}

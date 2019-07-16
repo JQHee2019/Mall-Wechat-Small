@@ -1,0 +1,11 @@
+<!--components/function/function-banner/index.wxml-->
+<view class='main-box'>
+  <view class='top-box'>
+    <view class='top-left-box'></view>
+    <view class='top-right-box'>
+      <view class='top-right-top-box'></view>
+      <view class='top-right-bottom-box'></view>
+    </view>
+  </view>
+  <view class='bottom-box'></view>
+</view>

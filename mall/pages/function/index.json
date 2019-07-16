@@ -3,5 +3,11 @@
   "enablePullDownRefresh": true,
   "backgroundColor": "#f0145a",
   "backgroundTextStyle": "dark",
-  "usingComponents": {}
+  "usingComponents": {
+    "v-function-swiper": "/components/function/function-swiper/index",
+    "v-function-items": "/components/function/function-items/index",
+    "v-function-notice": "/components/function/function-notice/index",
+    "v-function-banner": "/components/function/function-banner/index",
+    "v-function-goods": "/components/function/function-goods/index"
+  }
 }

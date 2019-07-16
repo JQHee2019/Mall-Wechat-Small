@@ -1,2 +1,10 @@
 <!--pages/function/index.wxml-->
-<text>pages/function/index.wxml</text>
+<scroll-view scroll-y>
+  <view class='main-box'>
+    <v-function-swiper imageDatas='{{images}}'></v-function-swiper>
+    <v-function-items items='{{items}}'></v-function-items>
+    <v-function-notice noticeList='{{notices}}'></v-function-notice>
+    <v-function-banner></v-function-banner>
+    <v-function-goods></v-function-goods>
+  </view>
+</scroll-view>

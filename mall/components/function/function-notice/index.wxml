@@ -1,0 +1,11 @@
+<!--components/function/function-notice/index.wxml-->
+<view class='main-container'>
+  <image class='notice-icon'></image>
+  <swiper class="swiper_container" vertical="true" autoplay="true" circular="true" interval="8000">
+    <block wx:for="{{noticeList}}" wx:key>
+      <swiper-item >
+        <view class="swiper_item">{{item}}</view>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

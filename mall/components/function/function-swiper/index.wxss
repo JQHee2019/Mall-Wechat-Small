@@ -1,1 +1,8 @@
-/* components/function/function-swiper/index.wxss */
+/* components/home/home-swiper/index.wxss */
+.swiper-container {
+  width: 100%;
+  height: 40vw;
+}
+.slide-image {
+  width: 100%;
+}

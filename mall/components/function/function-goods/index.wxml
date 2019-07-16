@@ -1,0 +1,25 @@
+<!--components/function/function-goods/index.wxml-->
+<view class='main-box'>
+  <view class='goods-item'>
+    <image class='goods-img' mode="widthFix"></image>
+    <view class='bottom-box'>
+      <text class='goods-name'>商品名称</text>
+      <view class='price-box'>
+        <text class='price-text'>￥13.00</text>
+        <text class='buy-btn'>购买</text>
+      </view>
+    </view>
+  </view>
+
+  <view class='goods-item'>
+    <image class='goods-img' mode="widthFix"></image>
+    <view class='bottom-box'>
+      <text class='goods-name'>商品名称</text>
+      <view class='price-box'>
+        <text class='price-text'>￥13.00</text>
+        <text class='buy-btn'>购买</text>
+      </view>
+    </view>
+  </view>
+
+</view>
