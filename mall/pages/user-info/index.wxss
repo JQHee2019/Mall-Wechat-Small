@@ -1,0 +1,27 @@
+/* pages/user-info/index.wxss */
+.main-box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-top: 100rpx;
+}
+
+.show-image {
+  margin: 0 auto;
+  background-color: orange;
+  width: 500rpx;
+  height: 500rpx;
+}
+
+.submit-btn {
+  position: fixed;
+  bottom: 60rpx;
+  left: 0;
+  right: 0;
+  margin: 60rpx 26rpx 0 26rpx;
+  height: 100rpx;
+  font-size: 36rpx;
+  border: 1rpx solid #ddd;
+  color: white;
+  background-color: #91cce9;
+}

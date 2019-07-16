@@ -1,0 +1,13 @@
+<!--pages/user-info/index.wxml-->
+<view class='main-box'>
+  <image class='show-image' bindtap='showMenuAction'></image>
+  <v-commone-button custom-class='submit-btn' bind:parentEvent='submitClick' title='提交'></v-commone-button>
+  <van-action-sheet
+  show="{{ show }}"
+  actions="{{ actions }}"
+  cancel-text="取消"
+  bind:close="onClose"
+  bind:select="onSelect"
+  bind:cancel="onClose"
+/>
+</view>

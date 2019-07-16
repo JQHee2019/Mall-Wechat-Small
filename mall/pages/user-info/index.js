@@ -1,10 +1,16 @@
-// pages/mine/index.js
+// pages/user-info/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    show: false,
+    actions: [{
+      name: "打开相机"
+    },{
+        name: "打开相册"
+    }]
 
   },
 
@@ -63,20 +69,27 @@ Page({
   onShareAppMessage: function () {
 
   },
-  userInfoTapAction: function() {
-    console.log('123')
-    wx.navigateTo({
-      url: '/pages/user-info/index',
-    })
+  onClose() {
+    this.setData({ show: false });
   },
-  cellItemClick: function(e) {
-    console.log(e.detail)
-    switch (e.detail) {
-      case '设置': 
-        wx.navigateTo({
-          url: '/pages/setting/index',
-        })
-      break
-    }
+
+  onSelect(event) {
+    this.setData({ show: false });
+    console.log(event.detail);
+
+  },
+  submitClick: function() {
+    console.log('提交')
+  },
+  showMenuAction: function() {
+    // this.setData({ show: true });
+    wx.chooseImage({
+      count: 1,
+      success: function (res) {
+        // 无论用户是从相册选择还是直接用相机拍摄，路径都是在这里面
+        var filePath = res.tempFilePaths[0];
+        console.log(filePath)
+      },
+    })
   }
 })

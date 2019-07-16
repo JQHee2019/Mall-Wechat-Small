@@ -4,11 +4,12 @@
     "pages/message/index",
     "pages/service/index",
     "pages/mine/index",
-    "pages/setting/index"
+    "pages/setting/index",
+    "pages/user-info/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#000",
+    "navigationBarBackgroundColor": "#91cce9",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "white"
   },
