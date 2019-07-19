@@ -1,4 +1,7 @@
 // pages/function/index.js
+import { HomeModel } from '../../http/modules/index.js'
+const _index = new HomeModel()
+
 Page({
 
   /**
@@ -14,6 +17,11 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+
+    _index.dataList('2', '10').then(res => {
+      console.log(res)
+    })
+
     var tImages = ['https://ss1.baidu.com/9vo3dSag_xI4khGko9WTAnF6hhy/image/h%3D300/sign=35cbb2598e0a19d8d403820503fb82c9/34fae6cd7b899e51f6c7d1fc4ca7d933c9950d89.jpg']
     var tItems = [
       { "image": "/images/tabbar_message_n.png", "name": "测试"},

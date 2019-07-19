@@ -8,3 +8,17 @@
     <v-function-goods></v-function-goods>
   </view>
 </scroll-view>
+
+
+<!-- <view class='main-box'>
+  <view class='container'>
+    <view class='title'>登录</view>
+    <view class='des'>登录</view>
+    <view class='input-box'>
+      <view class='name'>用户名</view>
+      <view class='password'>命名</view>
+      <view >提示文字</view>
+    </view>
+    <view class='register-btn'>注册</view>
+  </view>
+ </view> -->
